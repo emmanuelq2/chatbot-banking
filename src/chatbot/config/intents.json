@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+     "name": "account_opening",
+      "handler": "account_opening",
+      "keywords": [
+        "open account",
+        "new account",
+        "account opening",
+        "start account"
+      ],
+      "entities": {
+        "account_type": ["checking", "savings", "business"]
+      }
+    },
+    {
+      "name": "money_transfer",
+      "handler": "money_transfer",
+      "keywords": [
+        "transfer money",
+        "send money",
+        "move funds",
+        "transfer"
+      ],
+      "entities": {}
+    },
+    {
+      "name": "secure_advisor_message",
+      "handler": "advisor_message",
+      "keywords": [
+        "message advisor",
+        "message my advisor",
+        "secure message",
+        "contact advisor",
+        "contact my advisor",
+        "financial advisor"
+      ],
+      "entities": {}
+    }
+  ]
+}
